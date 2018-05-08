@@ -6,8 +6,13 @@ function getIt() {
   });
 }
 
-$(document).ready(function(){
+function frameIt() {
+  $('img').on('load', function() {
+    
+  })
+}
 
+
+$(document).ready(function(){
   getIt();
-  
 });
