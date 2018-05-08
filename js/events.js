@@ -12,10 +12,16 @@ function frameIt() {
   });
 }
 
+function pressIt() {
+  $('input')
+}
+
 
 
 
 $(document).ready(function(){
   getIt();
   frameIt();
+  pressIt();
+  submitIt();
 });
